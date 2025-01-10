@@ -5,6 +5,7 @@
 body{
     font-family: "Fira Sans", serif;
     font-style: normal;
+    /* color: #F1F1F3; */
 }
     main{
     max-width: 1280px;
@@ -98,7 +99,7 @@ body{
 .pillure-topic .pillure-content{
     border: 1px solid rgba(14, 14, 14, 15%);
     border-radius: 16px;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     padding: 24px;
 }
 
@@ -160,7 +161,7 @@ padding: 33px;
     background-image: url(./assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: 24px 24px;
-    border: 1px solid rgba(14, 14, 14, 15%);
+    border: 1px solid #F1F1F3;
     border-radius: 16px;
 }          
 .quote-content{
@@ -182,9 +183,65 @@ padding: 33px;
     padding: 32px;
 }
 .question-table{
-    border: 1px solid #5490F5;
+    
 }
-.question-table > thead> tr{
+.question-table table{
+    border: 1px solid red;
+    padding: 20px; 
+}
+.question-table th{
     font-size: 20px;
     font-weight: 600;
+}
+
+
+
+/* news */
+.news p{
+    padding: 24px 0;
+}
+.news-topic{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rgba(14, 14, 14, 15%); */
+    border: 1px solid #F1F1F3;
+    border-radius: 24px;
+    padding: 48px;
+    margin: 24px 0;
+    gap:32px;
+}
+.news-topic .img1{
+    border-radius: 24px;
+}
+.news-topic h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.news-topic .news-content .img2{
+    padding: 12px 0;
+}
+.news-topic .news-content p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.news-topic .news-content .news-time{
+    padding: 12px 0;
+}
+.news-content button{
+    padding: 13px 26px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: none;
+    margin-top: 32px;
+}
+.news-content button:hover{
+    background-color: #F1F1F3;
+    color: #006A50;
 }
