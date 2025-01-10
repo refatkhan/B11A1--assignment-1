@@ -6,6 +6,12 @@ body{
     font-family: "Fira Sans", serif;
     font-style: normal;
 }
+
+.all-h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
 .nav-content{
     max-width: 1280px;
     display: flex;
@@ -63,5 +69,35 @@ body{
     color: #FFFFFF;
     border-radius: 8px;
     text-decoration: none;
+    
+}
+/* pillure-topic */
+.pillur-of-bangladesh{
+    max-width: 1280px;
+    margin: auto;
+    padding: 80px 0px;
+    
+}
+.pillure-topic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    gap: 24px;
+}
+.pillure-topic .pillure-content{
+    border: 1px solid rgba(14, 14, 14, 15%);
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 24px;
+}
+.pillure-topic .pillure-content h5{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-top: 24px;
+}
+.pillure-topic .pillure-content p{
     
 }
