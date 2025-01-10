@@ -6,7 +6,13 @@ body{
     font-family: "Fira Sans", serif;
     font-style: normal;
 }
-
+    main{
+    max-width: 1280px;
+    margin: auto;
+    }
+    section{
+        padding-bottom: 80px;
+    }
 .all-h3{
     font-size: 40px;
     font-weight: bold;
@@ -49,10 +55,7 @@ body{
 /* banner section */
 .banner-main{
     background-color: #C6E4D6;
-    max-width: 1280px;
-    margin: auto;
     border-radius: 24px;
-    padding: 80px 0px;
 }
 .banner-content{
     display: flex;
@@ -85,12 +88,6 @@ body{
     
 }
 /* pillure-topic */
-.pillur-of-bangladesh{
-    max-width: 1280px;
-    margin: auto;
-    padding: 80px 0px;
-    
-}
 .pillure-topic{
     display: flex;
     justify-content: space-between;
@@ -109,10 +106,6 @@ body{
     margin-top: 12px;
 }
 /* future-vision */
-.future-vision{
-    max-width: 1280px;
-    margin: auto;
-}
 .future-vision p{
     padding-top: 24px;
 }
@@ -164,14 +157,12 @@ padding: 33px;
 }
 /* quote */
 .quote{
-    max-width: 1280px;
-    margin: auto;
     background-image: url(./assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: 24px 24px;
     border: 1px solid rgba(14, 14, 14, 15%);
     border-radius: 16px;
-}
+}          
 .quote-content{
     padding: 48px 24px;
 }
@@ -184,6 +175,16 @@ padding: 33px;
     margin-top: 12px;
     margin-bottom: 4px;
 }
-.quote p{
-    
+/* opinion */
+.question{
+    margin-top: 24px;
+    border-radius: 16px;
+    padding: 32px;
+}
+.question-table{
+    border: 1px solid #5490F5;
+}
+.question-table > thead> tr{
+    font-size: 20px;
+    font-weight: 600;
 }
