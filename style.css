@@ -12,6 +12,19 @@ body{
     font-weight: bold;
     color: #0E0E0E;
 }
+.all-p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 70%);
+}
+.all-h5{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-top: 24px;
+}
 .nav-content{
     max-width: 1280px;
     display: flex;
@@ -91,13 +104,86 @@ body{
     background-color: #FFFFFF;
     padding: 24px;
 }
-.pillure-topic .pillure-content h5{
-    font-size: 20px;
-    font-weight: bold;
-    color: #0E0E0E;
-    opacity: 80%;
+
+.pillure-topic .pillure-content p{
+    margin-top: 12px;
+}
+/* future-vision */
+.future-vision{
+    max-width: 1280px;
+    margin: auto;
+}
+.future-vision p{
+    padding-top: 24px;
+}
+.future-vision-topic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin: 32px 0;
+}
+.future-vision-topic .future-vision-content1{
+    background-color: rgba(84, 144, 245, 20%);
+    border-radius: 16px;
+    padding: 33px;
+}
+.future-vision-topic .future-vision-content1 button{
+    padding: 11px 20px;
+    background-color: #5490F5;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
     margin-top: 24px;
 }
-.pillure-topic .pillure-content p{
+.future-vision-topic .future-vision-content2{
+background-color: #C6E4D6;
+border-radius: 16px;
+padding: 33px;
+}
+.future-vision-topic .future-vision-content2 button{
+    padding: 11px 20px;
+    background-color: #09A15C;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+.future-vision-topic .future-vision-content3{
+    background-color:#F7EBCF ;
+    border-radius: 16px;
+    padding: 33px;
+}
+.future-vision-topic .future-vision-content3 button{
+    padding: 11px 20px;
+    background-color: #FFC239;
+    border-radius: 8px;
+    border: none; 
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+/* quote */
+.quote{
+    max-width: 1280px;
+    margin: auto;
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+    border: 1px solid rgba(14, 14, 14, 15%);
+    border-radius: 16px;
+}
+.quote-content{
+    padding: 48px 24px;
+}
+.quote h5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.quote p{
     
 }
