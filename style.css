@@ -283,7 +283,14 @@ section {
     color: #0E0E0E;
     opacity: 70%;
 }
-
+.news-topic a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.news-topic a:hover{
+    background-color: #F1F1F3;
+    color: #006A50;
+}
 .news-topic .news-content .news-time {
     padding: 12px 0;
 }
