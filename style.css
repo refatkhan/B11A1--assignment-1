@@ -238,13 +238,14 @@ section {
 .question-table {}
 
 .question-table table {
-    border: 1px solid red;
-    padding: 20px;
+color: #0E0E0E;
+
 }
 
 .question-table th {
     font-size: 20px;
     font-weight: 600;
+    color: #0E0E0E;
 }
 
 
