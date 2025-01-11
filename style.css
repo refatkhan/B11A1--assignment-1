@@ -6,18 +6,21 @@
 body {
     font-family: "Fira Sans", serif;
     font-style: normal;
+    background-color: #F1F1F3;
     
 }
 
 main {
     max-width: 1280px;
     margin: auto;
-    color: #F1F1F3;
+    
+
     
 }
 
 section {
-    padding-bottom: 80px;
+    margin-bottom: 80px;
+    
 }
 
 .all-h3 {
@@ -212,6 +215,7 @@ section {
     background-position: 24px 24px;
     border: 1px solid #F1F1F3;
     border-radius: 16px;
+    background-color: #FFFFFF;
 }
 
 .quote-content {
@@ -234,6 +238,7 @@ section {
     border-radius: 16px;
     padding: 32px;
     border: 1px solid #F1F1F3;
+    background-color: #FFFFFF;
 }
 
 .option-header{
@@ -262,7 +267,12 @@ width: 100%;
 
 }
 
-
+.question-table tr select {
+    padding: 10px 14px;
+    border-radius: 4px;
+    background-color: #C6E4D6;
+    color: #0E0E0E;
+}
 
 
 /* news */
@@ -279,6 +289,7 @@ width: 100%;
     padding: 48px;
     margin: 24px 0;
     gap: 32px;
+    background-color: #FFFFFF;
 }
 
 .news-topic .img1 {
@@ -373,7 +384,27 @@ width: 100%;
 .donate-button .change:hover {
     background-color: #FFFFFF;
 }
-
+.other-ammount{
+    text-align: center;
+    max-width: 1035px;
+    margin: auto;
+    background-color: #FFFFFF;  
+    
+}
+.other-ammount input{
+    border: none;
+    outline: none;
+    border-bottom:1px solid ;
+}
+.other-ammount input[type="text"] {
+    padding: 20px 0;
+    /* max-width: 1020px; */
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 30%;
+}
 .donate-now {
     text-align: center;
     margin:32px 0 ;
@@ -394,21 +425,7 @@ width: 100%;
     color: #0E0E0E;
 }
 
-.other-ammount{
-    text-align: center;
-    max-width: 1035px;
-    margin: auto;
-    
-}
-.other-ammount input[type="text"] {
-    padding: 20px 0;
-    /* max-width: 1020px; */
-    width: 100%;
-    text-align: center;
-    font-size: 20px;
-    color: #0E0E0E;
-    opacity: 30%;
-}
+
 
 /* newsletter */
 .newsletter {
@@ -462,6 +479,9 @@ width: 100%;
 }
 
 /* footer-content */
+footer{
+    background-color: #FFFFFF;
+}
 .footer-content {
     padding: 50px 160px;
     text-align: center;
