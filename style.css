@@ -233,6 +233,7 @@ section {
     margin-top: 24px;
     border-radius: 16px;
     padding: 32px;
+    border: 1px solid #F1F1F3;
 }
 
 .option-header{
@@ -247,17 +248,20 @@ section {
     font-weight: 600;
     color: #0E0E0E;
 }
+
 .question-table table {
 color: #0E0E0E;
+border: 1px solid rgba(14, 14, 14, 15%);
+border-collapse: collapse;
+width: 100%;
+
+}
+.question-table td,tr {
+    border: 1px solid rgba(14, 14, 14, 15%);
+    padding: 24px;
 
 }
 
-.question-table th {
-    font-size: 20px;
-    font-weight: 600;
-    color: #0E0E0E;
-    background-color: #09A15C;
-}
 
 
 
