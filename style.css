@@ -235,8 +235,18 @@ section {
     padding: 32px;
 }
 
-.question-table {}
-
+.option-header{
+  display: flex;
+  justify-content: space-between;
+    padding: 24px;
+    background-color: #C6E4D6;
+    border: ipx solid rgba(14, 14, 14, 15%);
+}
+.option-header h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
 .question-table table {
 color: #0E0E0E;
 
@@ -246,6 +256,7 @@ color: #0E0E0E;
     font-size: 20px;
     font-weight: 600;
     color: #0E0E0E;
+    background-color: #09A15C;
 }
 
 
