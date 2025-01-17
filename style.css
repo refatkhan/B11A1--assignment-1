@@ -12,10 +12,7 @@ body {
 
 main {
     max-width: 1280px;
-    margin: auto;
-    
-
-    
+    margin: auto; 
 }
 
 section {
@@ -483,8 +480,10 @@ footer{
     background-color: #FFFFFF;
 }
 .footer-content {
+    max-width: 1280px;
     padding: 50px 160px;
     text-align: center;
+    margin: auto;
 }
 
 .footer-content h3 {
